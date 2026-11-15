@@ -6,6 +6,10 @@
     {
       "source": "/api/(.*)",
       "destination": "https://devcollab-backend-ly1b.onrender.com/api/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
